@@ -16,7 +16,7 @@ body {
 .navbar {
   height: 42px;
   padding: 4px 15px 2px 15px;
-  background-color: ;
+  /* background-color: ; */
   border-bottom: 2px solid #c6c6c6;
 }
 
@@ -130,4 +130,31 @@ a:visited {
   width: 23%;
   margin: auto;
   font-size: 10px;
+}
+
+/* LINK LIST STYLES */
+.site-index div{
+	display: inline-block;
+	/* float: left; */
+  width: 165px;
+  /* width: 1050px; */
+	height: 420px;
+	clear: both;
+	margin-left: 80px;
+}
+
+li{
+	font-family: arial;
+	font-size: 14px;
+	margin-bottom: 8px;
+	color: #333;
+	line-height: 16px;
+	font-weight: 500px;
+	width: 150px;
+}
+li:hover{
+	text-decoration: underline;
+}
+ul{
+	margin-top: 14px;
 }
