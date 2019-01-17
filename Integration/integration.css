@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER STYLES*/
+
+/* header{
+  width: 100%;
+  position: fixed;
+  display: block;
+  top: 4px;
+  margin-bottom: 42px;
+} */
+
+.navbar {
+  height: 42px;
+  padding: 4px 15px 2px 15px;
+  background-color: ;
+  border-bottom: 2px solid #c6c6c6;
+}
+
+i {
+  padding: 8px 9px 9px 9px;
+  width: 16px;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.navbar button {
+  float: right;
+  background-color: #326891;
+  border: 0.3px solid #333333;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 3px;
+  margin-right: 5px;
+  top: 4px;
+  margin-right: 5px;
+}
+
+.section {
+  display: inline-block;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+/*ARTICLE STYLES*/
+
+#main-article {
+  width: 1200px;
+  height: 2000px;
+  background: gray;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image1 img {
+  width: 100%;
+  height: 675px;
+}
+
+.image1-caption {
+  padding-right: 30%;
+}
+
+.content-article {
+  width: 630px;
+  height: auto;
+  background: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head-date-name {
+  float: left;
+  background: yellow;
+}
+
+#name {}
+
+#date {}
+
+#head-icons {
+  float: right;
+  background-color: #fff;
+  vertical-align: baseline;
+}
+
+.paragraph p {
+  clear: both;
+}
+
+/* .img-text {
+    background-image: url('https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png');
+    background-image: url("/images/inflation-720.png");
+    background-size: cover;
+    width: 630px;
+    height: 600px;
+    background: green;
+    position: absolute; 
+  } */
+
+#image2 {
+  width: 630px;
+}
+
+.desc-column {
+  display: inline-flex;
+}
+
+#line div {
+  position: relative;
+  top: -450px;
+  left: 0;
+  /* display: inline-flex; */
+  width: 23%;
+  margin: auto;
+  font-size: 10px;
+}
