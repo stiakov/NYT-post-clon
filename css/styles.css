@@ -12,16 +12,26 @@ html body {
 #top-bar {
   width: 100%;
   height: 42px;
-  /* position: fixed; */
   background: cyan;
 }
 
 #main-article {
   width: 1200px;
-  height: 2000px;
-  background: gray;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+#title span {
+  font-family: 'Domine', serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+  color: black;
+  margin-left: 405px;
+  float: left;
+  margin-top: 45px;
+  margin-bottom: 23px;
 }
 
 .image1 img {
@@ -30,25 +40,52 @@ html body {
 }
 
 .image1-caption {
-  padding-right: 30%;
+  margin-top: 5px;
+  margin-right: 350px;
+  font-family: 'Tinos', serif;
+  font-size: 16.5px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #666;
+}
+
+.image1-caption span {
+  font-family: 'Tinos', serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  margin-left: 4px;
+  color: #888;
 }
 
 .content-article {
   width: 630px;
   height: auto;
   background: whitesmoke;
-  margin-left: auto;
+  margin-top: 46px;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .head-date-name {
+  height: 60px;
   float: left;
-  background: yellow;
 }
 
-#name {}
+#name {
+  height: 45px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  vertical-align: top;
+}
 
-#date {}
+#date {
+  height: 40px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+}
 
 #head-icons {
   float: right;
@@ -60,31 +97,40 @@ html body {
   clear: both;
 }
 
-/* .img-text {
-  background-image: url('https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png');
-  background-image: url("/images/inflation-720.png");
-  background-size: cover;
-  width: 630px;
-  height: 600px;
-  background: green;
-  position: absolute; 
-} */
-
 #image2 {
   width: 630px;
 }
 
-.desc-column {
+.desc-columns {
   display: inline-flex;
 }
 
-
-#line div {
+.desc-columns div {
   position: relative;
   top: -450px;
   left: 0;
-  /* display: inline-flex; */
   width: 23%;
   margin: auto;
   font-size: 10px;
+}
+
+#line2 {
+  margin-top: 140px;
+}
+
+#caption-image2 {
+  background: blue;
+  vertical-align: top;
+}
+
+#image3 {
+  width: 720px;
+  margin-right: auto;
+  margin-left: -45px;
+}
+
+#image3 img {
+  position: relative;
+  width: 720px;
+  margin-right: auto;
 }
