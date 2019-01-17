@@ -148,15 +148,15 @@ a:visited {
 
 .site-index div {
   display: inline-block;
-  /* float: left; */
-  width: 197px;
-  height: 313px;
-  /* height: 420px; */
+  float: left;
+  width: 165px;
+  /* height: 313px;
+  height: 420px;
   clear: both;
-  /* margin-left: 80px; */
+  margin-left: 80px;
   margin-right: auto;
   margin-left: auto; 
-  padding: 0;
+  padding: 0; */
 
 }
 
@@ -173,10 +173,10 @@ li {
   line-height: 16px;
   font-weight: lighter;
   list-style-type: none;
-  width: 197px;
+  /* width: 197px;
   height: 24px;
   margin:0;
-  padding: 0;
+  padding: 0; */
 }
 
 li:hover {
@@ -189,12 +189,14 @@ ul {
 
 /*SUBSCRIPTION FOOTER STYLES*/
 .subscription-footer{
-  float: right;
+  /* float: right; */
+  border-left: 1px dotted grey;
+	height: 390px;
+	padding-left: 10px;
 }
 
 .subscription-footer span{
   font-weight: bolder;
-  /* position: 704px 11148px; */
 }
 
 /*FOOTER STYLES*/
