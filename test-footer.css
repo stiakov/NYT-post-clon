@@ -1,0 +1,129 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-container {
+  display: flex;
+  margin: 15px;
+  background-color: red;
+  height: auto;
+  width: auto;
+  /* width: 1050px; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  font-family: 'Libre Franklin', 'sans-serif';
+}
+
+.orange-column {
+  background-color: orange;
+  height: auto;
+}
+
+.blue-column {
+  background-color: blue;
+  height: auto;
+}
+
+.green-column {
+  background-color: green;
+  height: auto;
+}
+
+.pink-column {
+  background-color: rgba(255, 0, 140, 0.836);
+  height: auto;
+}
+
+.black-column {
+  background-color: rgb(2, 2, 3);
+  height: auto;
+}
+
+.brown-column {
+  background-color: brown;
+  height: auto;
+}
+
+li {
+  /* font-family: arial; */
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: black;
+  line-height: 16px;
+  font-weight: lighter;
+  list-style-type: none;
+  /* width: 197px;
+  height: 24px;
+  margin:0;
+  padding: 0; */
+  background: violet;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+span {
+  font-family: 'Libre Franklin', 'sans-serif';
+  font-weight: bolder;
+  /* position: 704px 11148px; */
+  background: pink;
+  /* margin-right: -423px; */
+  padding-left: 40px;
+  font-size: 14px;
+}
+
+.living-span {
+  background: yellow;
+  padding-left: 0px;
+  margin-bottom: 16px;
+}
+
+.bottom-subscribe {
+  border-top: 1px solid black;
+}
+
+/**/
+
+/*FOOTER STYLES*/
+
+footer {
+  display: block;
+  /* background: yellow; */
+  width: 100%;
+}
+
+footer ul {
+  /* background: pink; */
+  margin-right: 18%;
+  margin-left: 20%;
+  border-top: solid 1px #999;
+}
+
+.ny-footer li {
+  list-style-type: none;
+  display: inline-block;
+  color: #999999;
+  text-align: center;
+  font-family: 'Libre Franklin', 'sans-serif';
+  font-size: 11px;
+  background: green;
+  margin-right: 4px;
+  margin-left: 4px;
+}
