@@ -152,13 +152,13 @@ html body {
 }
 
 .paragraph h2 {
-  font-family: 'Domine', serif !important;
+  font-family: 'Domine', serif;
   font-size: 18.5px;
   font-weight: 900;
 }
 
 .paragraph h4 {
-  font-family: 'Domine', serif !important;
+  font-family: 'Domine', serif;
   font-size: 16.5px;
   font-weight: 900;
   padding-top: 10px;
@@ -301,12 +301,11 @@ html body {
   margin-top: -28px;
 }
 
-/* RECIRCULATION */
+/* ============ RECIRCULATION LINKS*/
 
 .recirculation {
   width: 1200px;
   height: 1048px;
-  background: rgb(240, 176, 59);
   display: flex;
   margin: 45px auto;
   padding-top: 20px;
@@ -318,23 +317,9 @@ html body {
   display: flex;
   width: 852px;
   height: 680px;
-  background: #3984bd;
-  justify-content: flex-start;
 }
 
-.recirc-aside {
-  float: right;
-  width: 318px;
-  height: 1017px;
-  background: #39bd39;
-  margin-left: 30px;
-  padding: 15px 0px 15px 0px;
-  border-top: 1px solid #000;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.row2{
+.row2 {
   display: flex;
   width: 852px;
   height: 368px;
@@ -345,9 +330,122 @@ html body {
   display: flex;
   width: 852px;
   height: 22px;
-  background: #536a7c;
   padding-top: 17px;
   padding-bottom: 15px;
   margin-top: 0;
+  margin-bottom: 0px;
   border-top: 1px solid #000;
+  align-content: flex-start;
+}
+
+.h2-recirculation a {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #131313;
+  text-decoration: none;
+}
+
+
+
+.links-rec {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.rec-box {
+  width: 273px;
+  height: 293px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rec-box img {
+  width: 273px;
+  height: 182px;
+}
+
+.rec-box h6 {
+  height: 12px;
+  color: #a8a8a8;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  font-weight: lighter;
+  text-align: right;
+  margin: 0;
+}
+
+.rec-box h2 {
+  height: auto;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 600;
+  text-align: left;
+  font-family: 'Domine', serif;
+  margin: 0;
+  vertical-align: top;
+}
+
+.rec-box time {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 12px;
+  color: #a8a8a8;
+}
+
+
+/* ============ RECIRCULATION ASIDE */
+
+.recirc-aside {
+  float: right;
+  width: 318px;
+  height: 1017px;
+  margin-left: 30px;
+  padding: 0px 0px 15px 0px;
+  border-top: 1px solid #000;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.recirc-aside h2 {
+  display: flex;
+  font-family: 'Domine', serif;
+  height: 22px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  align-content: flex-start;
+  /* border-bottom: 1px solid #dedede; */
+}
+
+.recirc-aside a {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+}
+
+.recirc-aside li {
+  list-style-type: none;
+  border-top: 1px solid #dedede;
+  padding: 15px 0 15px 0;
+}
+
+.recirc-aside ul {
+  margin: 0;
+  padding: 0;
+}
+
+.aside-link a {
+  text-decoration: none;
+  color: #131313;
+  font-family: 'Domine', serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0.1px;
 }
