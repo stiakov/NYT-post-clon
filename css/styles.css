@@ -323,7 +323,6 @@ html body {
   display: flex;
   width: 852px;
   height: 368px;
-  background: #9ab5c9;
 }
 
 .h2-recirculation {
@@ -345,8 +344,6 @@ html body {
   color: #131313;
   text-decoration: none;
 }
-
-
 
 .links-rec {
   display: flex;
@@ -394,7 +391,6 @@ html body {
   font-size: 12px;
   color: #a8a8a8;
 }
-
 
 /* ============ RECIRCULATION ASIDE */
 
