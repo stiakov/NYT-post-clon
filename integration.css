@@ -1,4 +1,4 @@
-body {
+html body {
   margin: 0;
   padding: 0;
 }
@@ -37,7 +37,7 @@ header img {
 
 .navbar button {
   float: right;
-  background-color: #326891;
+  background-color: rgb(98, 136, 165);
   border: 0.3px solid #333333;
   color: #fff;
   font-size: 11px;
@@ -70,10 +70,21 @@ a:visited {
 
 #main-article {
   width: 1200px;
-  height: 2000px;
-  background: gray;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+#title span {
+  font-family: 'Domine', serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+  color: black;
+  margin-left: 405px;
+  float: left;
+  margin-top: 45px;
+  margin-bottom: 23px;
 }
 
 .image1 img {
@@ -81,63 +92,246 @@ a:visited {
   height: 675px;
 }
 
-.image1-caption {
-  padding-right: 30%;
+.image1-caption, .caption {
+  margin-top: 5px;
+  margin-right: 350px;
+  font-family: 'Tinos', serif;
+  font-size: 16.5px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #666;
+}
+
+.caption span {
+  font-family: 'Tinos', serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  margin-left: 4px;
+  color: #888;
 }
 
 .content-article {
   width: 630px;
   height: auto;
-  background: whitesmoke;
-  margin-left: auto;
+  margin-top: 46px;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .head-date-name {
+  height: 60px;
   float: left;
-  background: yellow;
+  margin-bottom: 28px;
 }
 
-#name {}
+#name {
+  height: 45px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  vertical-align: top;
+}
 
-#date {}
+#date {
+  height: 40px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 13px;
+  /* font-weight: 100 !important; */
+}
 
 #head-icons {
+  height: 60px;
   float: right;
   background-color: #fff;
-  vertical-align: baseline;
+  margin-top: auto;
+  margin-bottom: 0;
+  width: auto;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.no-line {
+  text-decoration: none;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-envelope, .fa-share {
+  color: #000;
+  font-size: 0.8em;
+}
+
+.fa-circle {
+  color: #eee;
+}
+
+.fa-stack {
+  padding-top: 15%;
+}
+
+.fa-stack:hover .fa-circle {
+  color: #fff;
+}
+
+.fa-circle:hover {
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 50%;
+}
+
+.right-social {
+  padding-top: 17%;
+  float: right;
+  font-size: 0.9em;
+}
+
+.right-social a {
+  color: #666;
+  margin-left: 1em;
+  font-size: 0.8em;
+}
+
+.right-social a:hover {
+  color: #888;
+  font-size: 0.8em;
 }
 
 .paragraph p {
   clear: both;
+  font-family: 'Tinos', serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
-/* .img-text {
-    background-image: url('https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png');
-    background-image: url("/images/inflation-720.png");
-    background-size: cover;
-    width: 630px;
-    height: 600px;
-    background: green;
-    position: absolute; 
-  } */
+.paragraph h2 {
+  font-family: 'Domine', serif !important;
+  font-size: 18.5px;
+  font-weight: 900;
+}
+
+.paragraph h4 {
+  font-family: 'Domine', serif !important;
+  font-size: 16.5px;
+  font-weight: 900;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paragraph a {
+  color: #326891;
+}
+
+.img-text {
+  height: 680px;
+}
+
+.image2-caption {
+  font-family: 'Tinos', serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #666;
+}
 
 #image2 {
   width: 630px;
+  margin-top: 10px;
 }
 
-.desc-column {
+.desc-columns {
   display: inline-flex;
 }
 
-#line div {
+.desc-columns div {
+  display: inline-block;
   position: relative;
-  top: -450px;
+  font-family: 'Libre Franklin', sans-serif;
+  top: -462px;
   left: 0;
-  /* display: inline-flex; */
-  width: 23%;
-  margin: auto;
-  font-size: 10px;
+  /* width: 23%; */
+  margin: 0px 5px 0px 5px;
+  font-size: 11.7px;
+  font-weight: lighter;
+  line-height: 14px;
+  text-align: ustify;
+  vertical-align: top;
+  letter-spacing: 0.5px;
+}
+
+.desc-columns div strong {
+  font-weight: 800;
+}
+
+#line2 {
+  margin-top: 116px;
+}
+
+#caption-image2 {
+  margin-top: -420px;
+  display: block;
+  clear: both;
+}
+
+#line {
+  height: 14px;
+  text-align: top;
+  margin-bottom: 20px;
+}
+
+#credits {
+  height: 10px;
+  text-align: bottom;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 13px;
+}
+
+#video-stanford {
+  margin-top: 30px;
+}
+
+#credits-video-st {
+  font-family: 'Tinos', serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #888;
+}
+
+#image3 {
+  width: 720px;
+  margin-left: -45px;
+}
+
+#image3 img {
+  position: relative;
+  width: 720px;
+  margin-right: auto;
+}
+
+#caption3 {
+  margin-top: 5px;
+  font-family: 'Tinos', serif;
+  font-size: 16.5px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #666;
+}
+
+#credits-photo {
+  font-family: 'Tinos', serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #888;
+}
+
+.footer-article {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 12px;
+  color: #999;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
 /* SITE-INDEX STYLES */
@@ -201,11 +395,26 @@ ul {
 
 /*FOOTER STYLES*/
 footer{
-  display: inline-flex;
+  display: block;
+  /* background: yellow; */
+  width: 100%;
 }
-footer ul li {
+footer ul{
+/* background: pink; */
+margin-right: 18%;
+margin-left: 20%;
+border-top: solid 1px #999;
+}
+
+footer li {
   list-style-type: none;
-  /* display: inline-block; */
+  display: inline-block;
   color: #999999;
   text-align: center;
+  font-family: 'Libre Franklin', 'sans-serif';
+  font-size:11px;
+  /* background: green; */
+  margin-right: 4px;
+  margin-left: 4px; 
 }
+
