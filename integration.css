@@ -374,7 +374,11 @@ a:visited {
   font-weight: bolder;
   /* position: 704px 11148px; */
   background: pink;
-  margin-right: -423px;
+  /* margin-right: -423px; */
+  padding-left: 40px;
+}
+#living-span{
+padding-left: 0px;
 }
 
 li {
