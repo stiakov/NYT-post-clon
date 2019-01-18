@@ -300,3 +300,54 @@ html body {
   float: right;
   margin-top: -28px;
 }
+
+/* RECIRCULATION */
+
+.recirculation {
+  width: 1200px;
+  height: 1048px;
+  background: rgb(240, 176, 59);
+  display: flex;
+  margin: 45px auto;
+  padding-top: 20px;
+  margin-bottom: 0;
+  flex-flow: column wrap;
+}
+
+.row1 {
+  display: flex;
+  width: 852px;
+  height: 680px;
+  background: #3984bd;
+  justify-content: flex-start;
+}
+
+.recirc-aside {
+  float: right;
+  width: 318px;
+  height: 1017px;
+  background: #39bd39;
+  margin-left: 30px;
+  padding: 15px 0px 15px 0px;
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.row2{
+  display: flex;
+  width: 852px;
+  height: 368px;
+  background: #9ab5c9;
+}
+
+.h2-recirculation {
+  display: flex;
+  width: 852px;
+  height: 22px;
+  background: #536a7c;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  border-top: 1px solid #000;
+}
