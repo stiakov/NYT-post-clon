@@ -506,6 +506,10 @@ a:visited {
   letter-spacing: 0.1px;
 }
 
+.aside-link a:hover {
+  color: #666;
+}
+
 /* #line div {
   display: inline-flex;
   width: 23%;
@@ -518,96 +522,78 @@ a:visited {
 .bottom-container {
   display: flex;
   flex-direction: column;
-  margin: 15px;
-  /* background-color: red; */
   height: auto;
-  width: auto;
-  /* width: 1000px; */
+  width: 1200px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
+  padding-top: 1px;
+  border-top: 2px solid #dedede;
 }
+
+.bottom-container img {
+  margin-left: -3px;
+}
+
 .borders {
-  position: relative;
-  border-top: 5px solid black;
+  border-top: 1px solid #dedede;
 }
 
-.borders:before {
-  content: " ";
-  position: absolute;
-  z-index: -2;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  border-top: 2px solid #ffea00;
+.index-header {
+  width: 1200px;
+  height: 44px;
+  padding: 5px 0px 3px 0px;
 }
 
-
-.index-header{
-  width: 100%;
-  height: 50px;
-  background: lightblue;
-  
-}
-
-/* .bottom-container img{
-  height: 40px;
-  background: violet;
-} */
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row nowrap;
+  justify-content: space-between;
   width: 100%;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+  /* flex-basis: 100%;
+  flex: 1; */
+  align-content: flex-start;
   font-family: 'Libre Franklin', 'sans-serif';
+  width: 197px;
 }
 
-.orange-column {
-  /* background-color: orange; */
+/* .orange-column {
   height: auto;
   width: auto;
 }
 
 .blue-column {
-  /* background-color: blue; */
   height: auto;
   width: auto;
 }
 
 .green-column {
-  /* background-color: green; */
   height: auto;
   width: auto;
 }
 
 .pink-column {
-  /* background-color: rgba(255, 0, 140, 0.836); */
   height: auto;
   width: auto;
 }
 
 .black-column {
-  /* background-color: rgb(2, 2, 3); */
   height: auto;
   width: auto;
 }
 
 .brown-column {
-  /* background-color: brown; */
   height: auto;
   width: auto;
-}
+} */
 
 li {
-  /* font-family: arial; */
   font-size: 12px;
   margin-bottom: 8px;
   color: black;
@@ -621,7 +607,7 @@ li {
   /* background: violet; */
 }
 
-li:hover {
+.column li:hover {
   text-decoration: underline;
 }
 
@@ -631,8 +617,11 @@ li:hover {
   /* position: 704px 11148px; */
   /* background: pink; */
   /* margin-right: -423px; */
-  padding-left: 40px;
   font-size: 14px;
+}
+
+.index ul {
+  padding: 0;
 }
 
 .living-span {
@@ -647,18 +636,21 @@ li:hover {
   height: 25px;
   font-size: 11px;
 }
-.top-subscribe{
+
+.top-subscribe {
   height: 25px;
   font-size: 11px;
   padding-bottom: 60px;
 }
-.remark{
+
+.remark {
   font-weight: bolder;
 }
 
 svg {
   height: 14px;
 }
+
 /**/
 
 /*FOOTER STYLES*/
