@@ -10,6 +10,6 @@ The main purpose was to learn about CSS3, selectors, pseudo-selectors, position,
 [Visit result here.](https://rawcdn.githack.com/stiakov/NYT-post-clon/556045f4401d32989311601a1420e8006ca69adb/index.html)
 
 Project realized by:
-[Elizabeth Villalejos](www.github.com/misselliev) & [Santiago Torres G.](www.github.com/stiakov)
+[Elizabeth Villalejos](https://github.com/misselliev) & [Santiago Torres G.](https://github.com/stiakov)
 
 January 2018
